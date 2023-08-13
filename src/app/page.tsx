@@ -1,7 +1,15 @@
-import Image from 'next/image'
-
+import Sidebar from "./componenet/sidebar";
+import Header from "./componenet/header";
 export default function Home() {
   return (
-    <h1>mmm</h1>
+   <main>
+      <div>
+        {/* <Header /> */}
+        <div className='grid grid-cols-7 mt-20'>
+          <Sidebar />
+          {/* <Body  />  */}
+        </div>     
+      </div>
+    </main>
   )
 }
